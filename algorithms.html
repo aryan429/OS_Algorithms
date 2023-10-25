@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Pranav Sirodaria">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Algorithms</title>
+<link rel="icon" type="image/x-icon"href="img/adjustments.svg">    
+<link href="CSS/styles.css?" type="text/css" rel="stylesheet"> 
+<link href="CSS/index.css?" type="text/css" rel="stylesheet"> 
+</head>
+<body class="container full-height-grow">
+    <header class="main-header">
+        <a href = "/" class="logo">
+            <img src="img/adjustments.svg" alt="logo">
+            <div class="logo-name">Disk Scheduler</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="simulator.html">Simulator</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            
+        </a>
+    </header>
+    <br><br>
+    <div class="title" style="text-align: center;text-decoration: underline;margin-top: 30px;">BRIEF ABOUT ALL ALGORITHMS IMPLEMENTED IN PROJECT</div>
+    <div class="algo-discription">
+        <h1 class="title2">First Come First Serve(FCFS)</h1>
+        <span class="subtitle">FCFS (First-Come-First-Serve) is the easiest disk scheduling algorithm among all 
+            the scheduling algorithms. In the FCFS disk scheduling algorithm, each input/output 
+            request is served in the order in which the requests arrive.In this algorithm, starvation does not 
+            occur because FCFS address each request.
+            </span>
+    <div class="algo-discription">
+        <h1 class="title2">Shortest Seek Time First(SSTF)</h1>
+        <span class="subtitle">SSTF is another type of scheduling algorithm. In this type of disk scheduling, the job which has less seek time will be executed first. So, in SSTF (shortest seek time first) scheduling, we have to calculate the seek time first. 
+            After calculating the seek time, 
+            each request will be served on the basis of seek time. The request 
+            which is close to the disk arm will be first executed. There are some 
+            drawbacks in FCFS. To overcome the limitations that arise in the FCFS. SSTF scheduling is implemented.        </span>
+    </div>        
+    <div class="algo-discription">
+        <h1 class="title2">LOOK</h1>
+        <span class="subtitle">Look disk scheduling is another type of disk scheduling algorithm. Look scheduling is an enhanced version of SCAN disk scheduling. Look disk scheduling is the same as SCAN disk scheduling, but in this scheduling, instead of going till the last track, we go till the last request and then change the direction.
+
+        </span>  
+    </div>      
+    <div class="algo-discription">
+        <h1 class="title2">CIRCULAR-LOOK</h1>
+        <span class="subtitle">C-look means circular-look. It takes the advantages of both the disk scheduling C-SCAN, and Look disk scheduling. In C-look scheduling, the disk arm moves and service each request till the head reaches its highest request, and after that, the disk arm jumps to the lowest cylinder without servicing any request, and the disk arm moves further and service those requests which are remaining.
+
+        </span>
+    </div>
+    <div class="algo-discription">
+        <h1 class="title2">SCAN</h1>
+        <span class="subtitle">The SCAN disk scheduling algorithm is another type of disk scheduling algorithm. In this algorithm, we move the disk arm into a specific direction (direction can be moved towards large value or the smallest value). Each request is addressed that comes in its path, and when it comes into the end of the disk, then the disk arm will move reverse, and all the requests are addressed that are arriving in its path. Scan disk scheduling algorithm is also called an elevator algorithm because its working is like an elevator.
+
+        </span>        
+    </div>
+    <div class="algo-discription">
+        <h1 class="title2">CIRCULAR-SCAN</h1>
+        <span class="subtitle">C-SCAN stands for Circular-SCAN. C-SCAN is an enhanced version of SCAN disk scheduling. In the C-SCAN disk scheduling algorithm, the disk head starts to move at one end of the disk and moves towards the other end and service the requests that come in its path and reach another end. After doing this, the direction of the head is reversed. The head reaches the first end without satisfying any request and then it goes back and services the requests which are remaining.
+
+        </span>        
+    </div>
+    </div>
+    </body>
+    </html>
+    

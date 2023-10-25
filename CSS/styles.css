@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 400, 500, 700');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2F303A;      
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+}
+.logo-name{
+    margin-left: 1rem;
+}
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav a{
+    color: inherit;
+    text-decoration: none;
+    padding-inline: 1rem;
+}
+.main-nav a:hover{
+    color: #adadad;
+}
+ .main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.title{
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.title2{
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: #1672A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background-color: #3083b3;
+}
+.algo-discription{
+    display: flex;
+    border-width: 3px;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}

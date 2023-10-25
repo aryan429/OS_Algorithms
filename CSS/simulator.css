@@ -1,0 +1,104 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.simulator-section{
+    display: inline-flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-right: 50px;
+    width: 100vw;
+}
+.flex-direction{
+    flex-direction: row;
+}
+
+@media (max-width: 1260px) {
+    .flex-direction{
+        flex-direction: row;
+    }
+    .simulator-section{
+        width: auto;
+        justify-content: center;
+    }
+    
+}
+.simulator-section .disk-scheduling .disk-scheduling-heading{
+    color: white;
+    background-color: #35B0A2;
+    padding: 1rem 10rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+.simulator-section .disk-scheduling .form{
+    display: flex;
+    background-color: #4A626A;
+    border-radius: .5rem;
+    padding: 1.5rem ;   
+}
+.simulator-section .disk-scheduling .form .btn{
+    border-color: transparent;
+    margin-left: 40%;
+}
+.simulator-section .disk-scheduling .form .current-track{
+    display: flex;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    padding: 0.5rem 2rem;
+    margin-left: 0.25rem;
+    margin: 2rem;
+}
+.simulator-section .disk-scheduling .form .track-sequence{
+    display: flex;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    padding: 0.5rem 2rem;
+    margin-left: 0.25rem;
+    margin: 2rem;
+}
+.simulator-section .disk-scheduling .form .algorithm-dropdown{
+    padding: 0.5rem 5.4rem;
+    margin-left: 0.25rem;
+    margin: 2rem;
+    border-radius: 0.25rem;
+    background-color: white;
+    border-color: transparent;
+}
+.simulator-section .disk-scheduling .form .direction-dropdown{
+    padding: 0.5rem 5.4rem;
+    margin-left: 0.25rem;
+    margin: 2rem;
+    border-radius: 0.25rem;
+    background-color: white;
+    border-color: transparent;
+}
+.simulator-section .disk-scheduling .form .algorithm-dropdown:hover{
+    background-color: #e6e6e6;
+}
+.simulator-section .disk-scheduling .form .direction-dropdown:hover{
+    background-color: #e6e6e6;
+}
+
+/* OUTPUT STYLES */
+.simulator-section .output .output-heading{
+    min-width: 0;
+    color: white;
+    background-color: #54C287;
+    padding: 1rem 20rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+
+}
+.simulator-section .output .results{
+    background-color: #4A626A;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    min-height: 690px;
+    
+   
+    
+}
+
+/* GRAPH STYLES */
